@@ -1,0 +1,177 @@
+.button{
+    background: #886239;
+    padding: 12px 31px;
+    border-radius: 30px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+header{
+    background-image: url(../img/header-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: #ffff;
+
+}
+a:hover{
+    color: #886239;
+    font-weight: 700;
+}
+header h1{
+    font-size: 90px;
+    font-family: serif;
+}
+.header-text p{
+    font-family: 'roboto';
+    max-width: 422;
+}
+
+
+
+
+@media (max-width: 976px) {
+    header h1{
+        font-size: 70px;
+    }
+}
+@media (max-width: 776px) {
+    header h1{
+        font-size: 50px;
+    }
+}
+@media (max-width: 576px) {
+    header h1{
+        font-size: 30px;
+    }
+}
+
+.bg-img{
+    background-image: url(/img/manzara.png);
+    width: 100%;
+    height: 582px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rang{
+    color: white;
+    font-size: 56px;
+}
+
+.img-ustuni{
+    width: 85px;
+    height: 85px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+.img-p{
+    width: 232px;
+    color: white;
+}
+
+.taniqli-content{
+    position: relative;
+}
+.taniqli-text{
+    position: absolute;
+    top: 0;
+    color: #ffff;
+
+}
+.taniqli-head{
+    color: #ffff;
+}
+.harita-ustuni{
+    font-size: 36px;
+}
+.img-ustuni-1{
+    background-image: url(/img/sahro.png);
+    width: 640px;
+    height: 400px;
+}
+@media (max-width:775px) {
+    .img-ustuni-1{
+        width: 540px;
+        height:300px;
+    }
+}
+@media (max-width:600px) {
+    .img-ustuni-1{
+        width: 500px;
+        height:250px;
+    }
+}
+@media (max-width:520px) {
+    .img-ustuni-1{
+        width: 400px;
+        height:300px;
+    }
+}
+@media (max-width:418px) {
+    .img-ustuni-1{
+        width: 300px;
+        height:300px;
+    }
+}
+.img-1{
+    width: 73px;
+    height: 73px;
+    border-radius: 100px;
+    background-color: black;
+}
+.rangx{
+    color: #C4C4C4;
+}
+.Фотогалерея{
+    max-width: 100%;
+    min-height: 785px;
+    background-color:#886239;
+}
+.foto-head{
+    color: white;
+}
+.btn{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+.pastga{
+    margin-top: 100px;
+}
+.paragrf-1{
+    max-width: 535px;
+    font-size: 18px;
+}
+.paragrf-2{
+    max-width: 541px;
+    font-size: 18px;
+    margin-top: -10px;
+}
+.col-ustuni{
+    margin-top: 77px;
+    border-bottom: 3px solid black;
+}
+.on-olti{
+    color: #886239;
+    font-size: 58px;
+}
+.bg-rang{
+    max-width: 100%;
+    min-height: 552px;
+    background-color: #EAEAEA;
+}
+.bg-rang-2{
+    max-width: 100%;
+    min-height: 351px;
+    background-color: #1F1E1E;
+}
